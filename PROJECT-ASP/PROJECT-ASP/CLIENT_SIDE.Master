@@ -1,0 +1,271 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CLIENT_SIDE.master.cs" Inherits="PROJECT_ASP.CLIENT_SIDE" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dentition - Medical Category Bootstrap Responsive Website Template - Home : W3Layouts</title>
+    <!-- google font -->
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- header -->
+        <header id="site-header" class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="fas fa-tooth"></i>Dentition
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto me-2 my-2 my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <form action="#error" method="GET" class="d-flex search-header">
+                            <input class="form-control" type="search" placeholder="Enter Keyword..." aria-label="Search"
+                                required>
+                            <button class="btn btn-style" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <!-- toggle switch for light and dark theme -->
+                    <div class="cont-ser-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- //toggle switch for light and dark theme -->
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+
+        <%--<div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>--%>
+
+
+        <!-- team section -->
+        <section class="w3l-team py-5">
+            <div class="container py-md-5 py-4">
+                <h3 class="title-style text-center mb-5">Meet Our <span>Doctors</span></h3>
+                <div class="row text-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="team-block-single">
+                            <div class="team-grids">
+                                <a href="#team-single">
+                                    <img src="assets/images/team1.jpg" class="img-fluid" alt="">
+                                    <div class="team-info">
+                                        <div class="social-icons-section">
+                                            <a class="fac" href="#facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="twitter mx-2" href="#twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="google" href="#google-plus">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="team-bottom-block p-4">
+                                <h5 class="member mb-1"><a href="#team">Olive Yew</a></h5>
+                                <small>Dentist</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
+                        <div class="team-block-single">
+                            <div class="team-grids">
+                                <a href="#team-single">
+                                    <img src="assets/images/team2.jpg" class="img-fluid" alt="">
+                                    <div class="team-info">
+                                        <div class="social-icons-section">
+                                            <a class="fac" href="#facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="twitter mx-2" href="#twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="google" href="#google-plus">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="team-bottom-block p-4">
+                                <h5 class="member mb-1 active"><a href="#team">Aida Joe</a></h5>
+                                <small>Orthodontist</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                        <div class="team-block-single">
+                            <div class="team-grids">
+                                <a href="#team-single">
+                                    <img src="assets/images/team3.jpg" class="img-fluid" alt="">
+                                    <div class="team-info">
+                                        <div class="social-icons-section">
+                                            <a class="fac" href="#facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="twitter mx-2" href="#twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="google" href="#google-plus">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="team-bottom-block p-4">
+                                <h5 class="member mb-1"><a href="#team">Teri Dac</a></h5>
+                                <small>Hygienist</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+                        <div class="team-block-single">
+                            <div class="team-grids">
+                                <a href="#team-single">
+                                    <img src="assets/images/team4.jpg" class="img-fluid" alt="">
+                                    <div class="team-info">
+                                        <div class="social-icons-section">
+                                            <a class="fac" href="#facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a class="twitter mx-2" href="#twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a class="google" href="#google-plus">
+                                                <i class="fab fa-google-plus-g"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="team-bottom-block p-4">
+                                <h5 class="member mb-1"><a href="#team">Anton Bne</a></h5>
+                                <small>Dentist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //team setion -->
+
+        <!-- call section -->
+        <section class="w3l-call-to-action-6">
+            <div class="container py-md-5 py-sm-4 py-5">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div class="left-content-call">
+                        <h3 class="title-big">Visit Now!</h3>
+                        <p class="text-white mt-1">Begin the change today</p>
+                    </div>
+                    <div class="right-content-call mt-sm-0 mt-4">
+                        <ul class="buttons">
+                            <li class="phone-sec me-lg-4"><i class="fas fa-phone-volume"></i>
+                                <a class="call-style-w3" href="tel:+1(23) 456 789 0000">+1(23) 456 789 0000</a>
+                            </li>
+                            <li><a href="appointment.html" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Book Now</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //call section -->
+
+        <!-- footer -->
+        <footer class="w3l-footer-29-main">
+            <div class="footer-29 pt-5 pb-4">
+                <div class="container pt-md-4">
+                    <div class="row footer-top-29">
+                        <div class="col-md-5 footer-list-29 pe-xl-5">
+                            <h6 class="footer-title-29">Contact Info </h6>
+                            <p class="mb-2 pe-xl-5">
+                                Address : Dentition, 10001, 5th Avenue, #06 lane street, NY - 62617.
+                            </p>
+                            <p class="mb-2">Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
+                            <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                        </div>
+                        <div class="col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                            <ul>
+                                <h6 class="footer-title-29">About</h6>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="about.html">Special Offers</a></li>
+                                <li><a href="about.html">Orthodontics</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-4 ps-lg-5 ps-md-4 footer-list-29 mt-md-0 mt-4">
+                            <ul>
+                                <h6 class="footer-title-29">Explore</h6>
+                                <li><a href="#blog">Blog Posts</a></li>
+                                <li><a href="#privacy">Privacy policy</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="#license">License & uses</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                            <ul>
+                                <h6 class="footer-title-29">Dentition</h6>
+                                <li><a href="#doctor">Dr. John Doe</a></li>
+                                <li><a href="#doctor">Dr. Martin Ker</a></li>
+                                <li><a href="#doctor">Dr. Alexander</a></li>
+                                <li><a href="#doctor">Dr. Eliz Wilson</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- copyright -->
+                    <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">
+                        © 2021 Dentition. All rights reserved. Design by
+                    <a href="https://w3layouts.com/" target="_blank">W3Layouts</a>
+                    </p>
+                    <!-- //copyright -->
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+    </form>
+</body>
+</html>
