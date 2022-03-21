@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="assets\css\style-starter.css" />
     <Content Include="assets\images\about.jpg" />
     <Content Include="assets\images\banner1.jpg" />
@@ -99,9 +103,115 @@
     <Content Include="assets\webfonts\fa-brands-400.svg" />
     <Content Include="assets\webfonts\fa-regular-400.svg" />
     <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="LOGIN.aspx" />
+    <Content Include="REGISTRATION.aspx" />
+    <Content Include="SRC\assets\css\style-starter.css" />
+    <Content Include="SRC\assets\images\about1.jpg" />
+    <Content Include="SRC\assets\images\about2.jpg" />
+    <Content Include="SRC\assets\images\about3.jpg" />
+    <Content Include="SRC\assets\images\about4.jpg" />
+    <Content Include="SRC\assets\images\banner.jpg" />
+    <Content Include="SRC\assets\images\bg1.jpg" />
+    <Content Include="SRC\assets\images\img1.jpg" />
+    <Content Include="SRC\assets\images\img2.jpg" />
+    <Content Include="SRC\assets\images\inner-banner.jpg" />
+    <Content Include="SRC\assets\images\map.png" />
+    <Content Include="SRC\assets\images\p1.jpg" />
+    <Content Include="SRC\assets\images\p2.jpg" />
+    <Content Include="SRC\assets\images\p3.jpg" />
+    <Content Include="SRC\assets\images\p4.jpg" />
+    <Content Include="SRC\assets\images\p5.jpg" />
+    <Content Include="SRC\assets\images\p6.jpg" />
+    <Content Include="SRC\assets\images\team1.jpg" />
+    <Content Include="SRC\assets\images\team2.jpg" />
+    <Content Include="SRC\assets\images\team3.jpg" />
+    <Content Include="SRC\assets\images\team4.jpg" />
+    <Content Include="SRC\assets\images\testi1.jpg" />
+    <Content Include="SRC\assets\images\testi2.jpg" />
+    <Content Include="SRC\assets\images\testi3.jpg" />
+    <Content Include="SRC\assets\images\testi4.jpg" />
+    <Content Include="SRC\assets\images\testi5.jpg" />
+    <Content Include="SRC\assets\images\testi6.jpg" />
+    <Content Include="SRC\assets\images\testi7.jpg" />
+    <Content Include="SRC\assets\js\bootstrap.min.js" />
+    <Content Include="SRC\assets\js\counter.js" />
+    <Content Include="SRC\assets\js\jquery-3.3.1.min.js" />
+    <Content Include="SRC\assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="SRC\assets\js\theme-change.js" />
+    <Content Include="SRC\assets\webfonts\fa-brands-400.svg" />
+    <Content Include="SRC\assets\webfonts\fa-regular-400.svg" />
+    <Content Include="SRC\assets\webfonts\fa-solid-900.svg" />
+    <Content Include="SRC\css\bootstrap.min.css" />
+    <Content Include="SRC\css\font-awesome.css" />
+    <Content Include="SRC\css\font.css" />
+    <Content Include="SRC\css\jqvmap.css" />
+    <Content Include="SRC\css\lightbox.css" />
+    <Content Include="SRC\css\minimal.css" />
+    <Content Include="SRC\css\monthly.css" />
+    <Content Include="SRC\css\morris.css" />
+    <Content Include="SRC\css\style-responsive.css" />
+    <Content Include="SRC\css\style.css" />
+    <Content Include="SRC\delete.png" />
+    <Content Include="SRC\Edit.png" />
+    <Content Include="SRC\fonts\fontawesome-webfont.svg" />
+    <Content Include="SRC\images\1.png" />
+    <Content Include="SRC\images\2.png" />
+    <Content Include="SRC\images\3.png" />
+    <Content Include="SRC\images\bg.jpg" />
+    <Content Include="SRC\images\close.png" />
+    <Content Include="SRC\images\g1.jpg" />
+    <Content Include="SRC\images\g2.jpg" />
+    <Content Include="SRC\images\g3.jpg" />
+    <Content Include="SRC\images\g4.jpg" />
+    <Content Include="SRC\images\g5.jpg" />
+    <Content Include="SRC\images\g6.jpg" />
+    <Content Include="SRC\images\g7.jpg" />
+    <Content Include="SRC\images\g8.jpg" />
+    <Content Include="SRC\images\g9.jpg" />
+    <Content Include="SRC\images\mail.png" />
+    <Content Include="SRC\images\minimal.png" />
+    <Content Include="SRC\images\nav-expand.png" />
+    <Content Include="SRC\images\next.png" />
+    <Content Include="SRC\images\pass.png" />
+    <Content Include="SRC\images\prev.png" />
+    <Content Include="SRC\images\search-icon.png" />
+    <Content Include="SRC\js\bootstrap.js" />
+    <Content Include="SRC\js\jquery.dcjqaccordion.2.7.js" />
+    <Content Include="SRC\js\jquery.fileupload.js" />
+    <Content Include="SRC\js\jquery.min.js" />
+    <Content Include="SRC\js\jquery.nicescroll.js" />
+    <Content Include="SRC\js\jquery.scrollTo.js" />
+    <Content Include="SRC\js\jquery.slimscroll.js" />
+    <Content Include="SRC\js\jquery.vmap.asia.js" />
+    <Content Include="SRC\js\jquery.vmap.australia.js" />
+    <Content Include="SRC\js\jquery.vmap.europe.js" />
+    <Content Include="SRC\js\jquery.vmap.js" />
+    <Content Include="SRC\js\jquery.vmap.sampledata.js" />
+    <Content Include="SRC\js\jquery.vmap.world.js" />
+    <Content Include="SRC\js\jquery2.0.3.min.js" />
+    <Content Include="SRC\js\lightbox-plus-jquery.min.js" />
+    <Content Include="SRC\js\monthly.js" />
+    <Content Include="SRC\js\morris.js" />
+    <Content Include="SRC\js\raphael-min.js" />
+    <Content Include="SRC\js\script.js" />
+    <Content Include="SRC\js\scripts.js" />
     <Content Include="Web.config" />
+    <Content Include="Home_C.aspx" />
+    <Content Include="About_C.aspx" />
+    <Content Include="Services_C.aspx" />
+    <Content Include="Contact_C.aspx" />
+    <Content Include="index_A.aspx" />
+    <Content Include="Manage_users.aspx" />
+    <Content Include="Manage_services.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Side.Master.cs">
+      <DependentUpon>Admin_Side.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Side.Master.designer.cs">
+      <DependentUpon>Admin_Side.Master</DependentUpon>
+    </Compile>
     <Compile Include="CLIENT_SIDE.Master.cs">
       <DependentUpon>CLIENT_SIDE.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,7 +219,70 @@
     <Compile Include="CLIENT_SIDE.Master.designer.cs">
       <DependentUpon>CLIENT_SIDE.Master</DependentUpon>
     </Compile>
+    <Compile Include="LOGIN.aspx.cs">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN.aspx.designer.cs">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Home_C.aspx.cs">
+      <DependentUpon>Home_C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_C.aspx.designer.cs">
+      <DependentUpon>Home_C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About_C.aspx.cs">
+      <DependentUpon>About_C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About_C.aspx.designer.cs">
+      <DependentUpon>About_C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRATION.aspx.cs">
+      <DependentUpon>REGISTRATION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REGISTRATION.aspx.designer.cs">
+      <DependentUpon>REGISTRATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services_C.aspx.cs">
+      <DependentUpon>Services_C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services_C.aspx.designer.cs">
+      <DependentUpon>Services_C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_C.aspx.cs">
+      <DependentUpon>Contact_C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_C.aspx.designer.cs">
+      <DependentUpon>Contact_C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index_A.aspx.cs">
+      <DependentUpon>index_A.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index_A.aspx.designer.cs">
+      <DependentUpon>index_A.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_users.aspx.cs">
+      <DependentUpon>Manage_users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_users.aspx.designer.cs">
+      <DependentUpon>Manage_users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_services.aspx.cs">
+      <DependentUpon>Manage_services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_services.aspx.designer.cs">
+      <DependentUpon>Manage_services.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CLIENT_SIDE.Master" />
@@ -125,13 +298,36 @@
     <Content Include="assets\webfonts\fa-solid-900.ttf" />
     <Content Include="assets\webfonts\fa-solid-900.woff" />
     <Content Include="assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="Admin_Side.Master" />
     <None Include="packages.config" />
+    <Content Include="SRC\assets\webfonts\fa-brands-400.eot" />
+    <Content Include="SRC\assets\webfonts\fa-brands-400.ttf" />
+    <Content Include="SRC\assets\webfonts\fa-brands-400.woff" />
+    <Content Include="SRC\assets\webfonts\fa-brands-400.woff2" />
+    <Content Include="SRC\assets\webfonts\fa-regular-400.eot" />
+    <Content Include="SRC\assets\webfonts\fa-regular-400.ttf" />
+    <Content Include="SRC\assets\webfonts\fa-regular-400.woff" />
+    <Content Include="SRC\assets\webfonts\fa-regular-400.woff2" />
+    <Content Include="SRC\assets\webfonts\fa-solid-900.eot" />
+    <Content Include="SRC\assets\webfonts\fa-solid-900.ttf" />
+    <Content Include="SRC\assets\webfonts\fa-solid-900.woff" />
+    <Content Include="SRC\assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="SRC\fonts\fontawesome-webfont.eot" />
+    <Content Include="SRC\fonts\fontawesome-webfont.ttf" />
+    <Content Include="SRC\fonts\fontawesome-webfont.woff" />
+    <Content Include="SRC\fonts\fontawesome-webfont.woff2" />
+    <Content Include="SRC\fonts\FontAwesome.otf" />
+    <Content Include="SRC\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="SRC\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="uploads\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
